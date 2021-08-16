@@ -1,0 +1,2 @@
+var twLSN = ['www.biemall.id','aduhai.indotema.com','www.physiostore.co.id','smarthafiztalkingdoll.blogspot.com','www.smarthafiztalkingdoll.com','url-toko.blogspot.com','www.alfirdaus.net','toko-whatsapp.blogspot.com','tokowhatsapp-black.blogspot.com'];
+function cekLSN(value,arr){ var status = false; for(var i=0; i<arr.length; i++){ var name = arr[i]; if(name == value){ status = true; break; } } return status; } var hst = window.location.hostname; if(cekLSN(hst, twLSN) == false) { window.location.href = 'http://bit.ly/toko-whatsapp'; }
